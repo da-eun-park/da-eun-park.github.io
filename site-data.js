@@ -13,18 +13,18 @@
 */
 
 const SITE_DATA = {
-  name: "Da Eun Park",
+  name: "Daeun Park",
   nameKorean: "박다은",
-  siteTitle: "Da Eun Park | Academic Website",
+  siteTitle: "Daeun Park | About",
 
-  title: "Graduate Student",
+  title: "BA Student",
   affiliation: "Political Science and International Relations",
 
   // Optional. Add your own image file to assets/profile.jpg and change this to "assets/profile.jpg".
-  photo: "",
+  photo: "assets/daenpark_profile.jpg",
 
   contact: {
-    email: "your.email@example.com",
+    email: "diana31717@gmail.com",
     location: "Seoul, South Korea"
   },
 
@@ -32,30 +32,29 @@ const SITE_DATA = {
     { label: "GitHub", url: "https://github.com/da-eun-park" },
     { label: "CV PDF", url: "files/Da_Eun_Park_CV.pdf" },
     { label: "Google Scholar", url: "" },
-    { label: "LinkedIn", url: "" }
+    { label: "LinkedIn", url: "www.linkedin.com/in/daeun-park-polisci" }
   ],
 
   bio: [
-    "I am a graduate student interested in political science, international relations, and social-scientific approaches to political questions.",
-    "My current interests include international politics, Korean politics, political economy, and quantitative methods. This paragraph is a placeholder, so replace it with your own introduction."
+    "I am a BA student at Sogang University, interested in political science, international relations, and social-scientific approaches to political questions.",
+    "My current interests include International Politics, International Security, American Politics, and Quantitative methods."
   ],
 
   news: [
-    { date: "2026.06", text: "Personal website launched." }
+    { date: "2025.11", text: "Participate as a presenter of Fall Sogang International Politics meeting" }
   ],
 
   researchInterests: [
     "International Relations",
-    "Political Economy",
-    "Korean Politics",
-    "Quantitative Methods",
-    "Public Opinion"
+    "Intenational Security",
+    "American Politics",
+    "Quantitative Methods"
   ],
 
   research: [
     {
-      title: "Research Project Title",
-      meta: "Working project / term paper / thesis idea",
+      title: "The Influence of Domestic Factors on the Decision to Go to War",
+      meta: "Term paper", #working project / term paper / thesis idea",
       description: "Write two to three sentences describing the research question, data, method, and expected contribution.",
       links: [
         { label: "Draft", url: "" },
@@ -64,70 +63,79 @@ const SITE_DATA = {
     }
   ],
 
-  publications: [
-    {
-      title: "Paper or Working Paper Title",
-      authors: "Da Eun Park",
-      venue: "Working paper, 2026",
-      note: "Optional short note, such as under review, presented at conference, or selected as course paper.",
-      links: [
-        { label: "PDF", url: "" }
-      ]
-    }
-  ],
+  #publications: [
+    #{
+      #title: "None",
+      #authors: "Daeun Park",
+      #venue: "Working paper, 2026",
+      #note: "Optional short note, such as under review, presented at conference, or selected as course paper.",
+      #links: [
+        #{ label: "PDF", url: "" }
+      #]
+    #}
+  #],
 
   education: [
+    #{
+      degree: "M.A., Political Science",
+      institution: "Sogang University",
+      period: "2027.3 - Present",
+      #details: [
+        #"Advisor: Professor Name",
+        #"Relevant coursework: International Relations, American Politics, Quantitative Methods in Political Science I"
+      #]
+    #},
     {
-      degree: "M.A. or B.A., Major",
-      institution: "University Name",
-      period: "YYYY - Present",
+      degree: "B.A., Political Science",
+      institution: "Sogang University",
+      period: "2023.3 - 2027.2",
       details: [
-        "Advisor: Professor Name",
-        "Relevant coursework: Course 1, Course 2, Course 3"
+        #"Advisor: Professor Name",
+        "Relevant coursework: International Relations, American Politics, Quantitative Methods in Political Science I"
       ]
     }
   ],
 
   experience: [
     {
-      role: "Research Assistant",
-      organization: "Lab / Center / Professor",
-      period: "YYYY.MM - YYYY.MM",
-      details: [
-        "Describe your work in one sentence.",
-        "Add another bullet if needed."
-      ]
+      role: "Department Assistant",
+      organization: Political Science Department#"Lab / Center / Professor",
+      period: "2025.09 - Present",
+      #details: [
+        #"Describe your work in one sentence.",
+        #"Add another bullet if needed."
+      #]
     }
   ],
 
-  teaching: [
-    {
-      role: "Teaching Assistant",
-      course: "Course Name",
-      period: "Semester",
-      details: [
-        "Led discussion sections, graded assignments, or held office hours."
-      ]
-    }
-  ],
+  #teaching: [
+    #{
+      #role: "Teaching Assistant",
+      #course: "Course Name",
+      #period: "Semester",
+      #details: [
+        #"Led discussion sections, graded assignments, or held office hours."
+      #]
+    #}
+  #],
 
   honors: [
     {
-      title: "Scholarship or Award Name",
-      organization: "Awarding Organization",
-      period: "YYYY",
-      details: "Optional one-line explanation."
+      title: "Junior BK Fellowship",
+      organization: "National Research Foundation of Korea(NRF) - Sogang Univ.",
+      period: "2026",
+      #details: "Optional one-line explanation."
     }
   ],
 
-  service: [
-    {
-      title: "Conference / Journal / Student Organization",
-      role: "Reviewer / Organizer / Member",
-      period: "YYYY",
-      details: "Optional one-line explanation."
-    }
-  ],
+  #service: [
+    #{
+      #title: "Conference / Journal / Student Organization",
+      #role: "Reviewer / Organizer / Member",
+      #period: "YYYY",
+      #details: "Optional one-line explanation."
+    #}
+  #],
 
   lastUpdated: "June 2026"
 };
