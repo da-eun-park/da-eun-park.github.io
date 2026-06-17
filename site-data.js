@@ -18,7 +18,7 @@ const SITE_DATA = {
   siteTitle: "Daeun Park | About",
 
   title: "B.A. Student",
-  affiliation: "Department of Political Science and International Relations, Sogang University",
+  affiliation: "Department of Political Science, Sogang University",
 
   // Optional. Add your own image file to assets/profile.jpg and change this to "assets/profile.jpg".
   photo: "assets/daeunpark_profile.jpg",
