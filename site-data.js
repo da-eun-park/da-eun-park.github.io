@@ -21,7 +21,7 @@ const SITE_DATA = {
   affiliation: "Department of Political Science and International Relations, Sogang University",
 
   // Optional. Add your own image file to assets/profile.jpg and change this to "assets/profile.jpg".
-  photo: "assets/daenpark_profile.jpg",
+  photo: "assets/daeunpark_profile.jpg",
 
   contact: {
     email: "diana31717@gmail.com",
