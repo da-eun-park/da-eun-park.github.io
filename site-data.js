@@ -88,10 +88,10 @@ const SITE_DATA = {
 
   honors: [
     {
-      title: "Junior BK Fellowship",
-      organization: "National Research Foundation of Korea (NRF) - Sogang University",
-      period: "2026",
-      details: ""
+      title: "BK21 Outstanding Undergraduate Researcher Scholarship",
+      organization: "Sogang University",
+      period: "2026.03 - 2027.02",
+      details: "Selected for Sogang University’s BK21 Outstanding Undergraduate Researcher Support Program, funded by the National Research Foundation of Korea."
     }
   ],
 
